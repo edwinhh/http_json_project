@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><title>test_report_page</title>
+</head>
+<body><h1 align="center">test report</h1>
+<p>测试总耗时：0:00:00.134008</p>
+<p>测试用例数：2&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp成功用例数：2&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp失败用例数：0&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp出错用例数：0</p>
+<table cellspacing="0" border="1" class="table" cellpadding="1"><tr><td bgcolor="#ABABAB" align="center">用例ID</td>
+<td bgcolor="#ABABAB" align="center">HTTP方法</td>
+<td bgcolor="#ABABAB" align="center">接口名称</td>
+<td bgcolor="#ABABAB" align="center">请求URL</td>
+<td bgcolor="#ABABAB" align="center">请求参数/数据</td>
+<td bgcolor="#ABABAB" align="center">测试方法</td>
+<td bgcolor="#ABABAB" align="center">测试描述</td>
+<td bgcolor="#ABABAB" align="center">测试结果</td>
+<td bgcolor="#ABABAB" align="center">失败原因</td>
+
+</tr>
+<tr><td align="center">1</td>
+<td>GET</td>
+<td>login-normal</td>
+<td align="center">/appServer/interface/user/login?</td>
+<td>{"mobile":"18259001552",
+"password":"e10adc3949ba59abbe56e057f20f883e",
+"model":"小米2S",
+"SN":"041552E97A96",
+"osInfo":"android4.0"}</td>
+<td>test_login_normal</td>
+<td>测试登陆，正向</td>
+<td align="center">Pass</td>
+<td></td>
+
+</tr>
+<tr><td align="center">2</td>
+<td>POST</td>
+<td>modifyPayPwd_normal</td>
+<td align="center">/appServer/interface/user/modifyPayPwd</td>
+<td>{'newPayPwd': 'e10adc3949ba59abbe56e057f20f883e', 'userId': 2910057590, 'confNewPayPwd': 'e10adc3949ba59abbe56e057f20f883e', 'payPassword': 'e10adc3949ba59abbe56e057f20f883e'}</td>
+<td>test_chpasswd_normal</td>
+<td>测试更改密码，正向</td>
+<td align="center">Pass</td>
+<td></td>
+
+</tr>
+</table>
+</body>
+</html>
